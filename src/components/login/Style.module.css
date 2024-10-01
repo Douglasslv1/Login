@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    background: linear-gradient(to right, #131b23, #1F7A8C);
+}
+
+.container{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    padding: 2%;
+    background: linear-gradient(to right, #131B23, #2C2657);
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px #0003;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+}
+
+.imagem{
+  text-align: center;
+}
+
+.imagem img{
+  width: 250px;
+  margin-bottom: 0;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imput{
+    border-radius: 5px;
+    border: 1px gray solid;
+    padding: 2.5%;
+    box-shadow: 0 1px 2px #0003;
+    width: 300px;
+}
+
+
+/* From Uiverse.io by SalladShooter */ 
+.buton {
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1em;
+    width: 7em;
+    aspect-ratio: 1/0.25;
+    color: white;
+    background: #212121;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 0.5em;
+    outline: 0.1em solid #353535;
+    border: 0;
+    box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    
+  }
+  
+  .buton:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 1em 0.45em rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg, #212121, #252525);
+    background: radial-gradient(
+      circle at bottom,
+      rgba(50, 100, 180, 0.5) 10%,
+      #212121 70%
+    );
+    outline: 0;
+  }
+  
+  .inscrevaSe a{
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+  }
+ 
