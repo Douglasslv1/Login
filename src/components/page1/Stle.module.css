@@ -1,0 +1,34 @@
+.NavMenu img{
+    width: 150px;
+    display: flex;
+    
+}
+
+.NavMenu{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    
+}
+
+li:hover{
+    scale: 1.1;
+    transition: 0.5s;
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
